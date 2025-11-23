@@ -1,0 +1,18 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "229eabf9-1089-4fd5-a2d7-d6172d6813e5")
+	(paper "A4")
+	(title_block
+		(title "Electrical Schematic")
+		(company "Terrier Ride Engineering Club")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
