@@ -272,6 +272,46 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 16,
+        "name": "120VAC Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgb(204, 102, 0)",
+        "wire_width": 12
+      },
+      {
+        "bus_width": 16,
+        "name": "12V Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(194, 0, 0)",
+        "wire_width": 12
+      },
+      {
+        "bus_width": 16,
+        "name": "24V Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgb(0, 132, 0)",
+        "wire_width": 12
+      },
+      {
+        "bus_width": 12,
+        "name": "Digital IO",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgb(0, 0, 132)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "Logic High",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 132, 132)",
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -279,7 +319,120 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "120VAC Power",
+        "pattern": "120VAC In"
+      },
+      {
+        "netclass": "24V Power",
+        "pattern": "24v DC In"
+      },
+      {
+        "netclass": "Digital IO",
+        "pattern": "Dispatch LED Control"
+      },
+      {
+        "netclass": "Digital IO",
+        "pattern": "Reset LED Control"
+      },
+      {
+        "netclass": "Digital IO",
+        "pattern": "Stop LED Control"
+      },
+      {
+        "netclass": "120VAC Power",
+        "pattern": "VAC"
+      },
+      {
+        "netclass": "120VAC Power",
+        "pattern": "120VAC"
+      },
+      {
+        "netclass": "24V Power",
+        "pattern": "+24V"
+      },
+      {
+        "netclass": "24V Power",
+        "pattern": "24V"
+      },
+      {
+        "netclass": "12V Power",
+        "pattern": "12VDC"
+      },
+      {
+        "netclass": "Digital IO",
+        "pattern": "Power Enable"
+      },
+      {
+        "netclass": "24V Power",
+        "pattern": "Power Enable Signal"
+      },
+      {
+        "netclass": "Digital IO",
+        "pattern": "Power Enable Signal"
+      },
+      {
+        "netclass": "Logic High",
+        "pattern": "Logic High"
+      },
+      {
+        "netclass": "Digital IO",
+        "pattern": "Ride On"
+      },
+      {
+        "netclass": "Digital IO",
+        "pattern": "Internal Pull Down Resistors"
+      },
+      {
+        "netclass": "Digital IO",
+        "pattern": "Reset"
+      },
+      {
+        "netclass": "Digital IO",
+        "pattern": "Dispatch"
+      },
+      {
+        "netclass": "Digital IO",
+        "pattern": "Jog Down"
+      },
+      {
+        "netclass": "Digital IO",
+        "pattern": "Jog Up"
+      },
+      {
+        "netclass": "Digital IO",
+        "pattern": "Ride Maint"
+      },
+      {
+        "netclass": "Digital IO",
+        "pattern": "Stop"
+      },
+      {
+        "netclass": "Digital IO",
+        "pattern": "L Bot Limit Switch"
+      },
+      {
+        "netclass": "Digital IO",
+        "pattern": "L Top Limit Switch"
+      },
+      {
+        "netclass": "Digital IO",
+        "pattern": "R Top Limit Switch"
+      },
+      {
+        "netclass": "Digital IO",
+        "pattern": "R Bot Limit Switch"
+      },
+      {
+        "netclass": "Digital IO",
+        "pattern": "PLC E-Stop Trigger"
+      },
+      {
+        "netclass": "Digital IO",
+        "pattern": "RCC E-Stop Trigger"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -359,12 +512,36 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },

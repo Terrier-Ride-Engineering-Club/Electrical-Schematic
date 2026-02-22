@@ -119,6 +119,97 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "Grounding_Bar"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Grounding_Bar_1_1"
+			(rectangle
+				(start -8.89 -1.27)
+				(end 13.97 -3.81)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 0 194 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "GROUNDING BAR"
+				(at 5.08 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 0 194 1)
+					)
+				)
+			)
+			(pin passive line
+				(at -11.43 -2.54 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "Limit_Switch"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -176,6 +267,26 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+		)
+		(symbol "Limit_Switch_1_1"
+			(pin input line
+				(at -11.43 -3.81 0)
+				(length 2.54)
+				(name "Trigger"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 		)
