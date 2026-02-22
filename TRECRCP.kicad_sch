@@ -5665,6 +5665,12 @@
 		(uuid "69890bb2-3d62-4513-b4cb-6ce13c9f1f08")
 	)
 	(junction
+		(at 265.43 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79b1e3c9-532c-4440-800c-c66e63d07c4b")
+	)
+	(junction
 		(at 181.61 308.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5856,16 +5862,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 203.2) (xy 186.69 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0172634e-7015-42ce-8d92-8fe8439925ae")
-	)
-	(wire
-		(pts
 			(xy 499.11 214.63) (xy 579.12 214.63)
 		)
 		(stroke
@@ -5896,7 +5892,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 139.7) (xy 270.51 139.7)
+			(xy 220.98 139.7) (xy 265.43 139.7)
 		)
 		(stroke
 			(width 0)
@@ -5916,23 +5912,23 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 335.28) (xy 247.65 335.28)
+			(xy 265.43 67.31) (xy 341.63 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0668d748-fe30-4005-a09f-7a99cd71e00a")
+	)
+	(wire
+		(pts
+			(xy 201.93 335.28) (xy 237.49 335.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "06dc5281-0716-4ef2-8f7f-80114a53fccc")
-	)
-	(wire
-		(pts
-			(xy 252.73 165.1) (xy 252.73 330.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "072cfb75-28cd-4caa-a25b-ac1ac9ecc008")
 	)
 	(wire
 		(pts
@@ -6023,6 +6019,16 @@
 			(type default)
 		)
 		(uuid "0b1a5bb9-a41a-4429-9bfd-6e8f792f4af2")
+	)
+	(wire
+		(pts
+			(xy 181.61 262.89) (xy 181.61 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ceacf6e-a38f-4f46-aea5-f31078b66c19")
 	)
 	(wire
 		(pts
@@ -6146,16 +6152,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 330.2) (xy 252.73 330.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1345cca2-ac1b-41f0-9238-14c4516ae088")
-	)
-	(wire
-		(pts
 			(xy 294.64 252.73) (xy 294.64 257.81)
 		)
 		(stroke
@@ -6186,6 +6182,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 165.1) (xy 252.73 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14bc3255-fa63-4d69-9c3c-9d1327c965a5")
+	)
+	(wire
+		(pts
 			(xy 500.38 180.34) (xy 500.38 213.36)
 		)
 		(stroke
@@ -6213,16 +6219,6 @@
 			(type default)
 		)
 		(uuid "183cace3-c1dc-428c-adef-e2d945fc41f4")
-	)
-	(wire
-		(pts
-			(xy 210.82 332.74) (xy 255.27 332.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1863fd6a-be6e-45e1-8ba5-7ee742186bfb")
 	)
 	(wire
 		(pts
@@ -6476,6 +6472,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 261.62) (xy 182.88 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30bb49cb-0e47-498e-941e-ff19fdaa4499")
+	)
+	(wire
+		(pts
 			(xy 586.74 222.25) (xy 586.74 160.02)
 		)
 		(stroke
@@ -6599,6 +6605,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 261.62) (xy 182.88 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3628b0e0-e617-4d65-aac1-0176bb62980e")
+	)
+	(wire
+		(pts
 			(xy 22.86 107.95) (xy 29.21 107.95)
 		)
 		(stroke
@@ -6609,13 +6625,23 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 160.02) (xy 203.2 160.02)
+			(xy 210.82 316.23) (xy 210.82 330.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3bde5dd2-94b4-4c15-b597-c37dcb93e850")
+		(uuid "391171ba-4006-450e-b4d1-9eeab4db7e25")
+	)
+	(wire
+		(pts
+			(xy 237.49 335.28) (xy 237.49 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3953e1d8-4e75-4eed-848a-51ed9047f8f9")
 	)
 	(wire
 		(pts
@@ -6626,16 +6652,6 @@
 			(type default)
 		)
 		(uuid "3cb95c77-d727-41c0-a96a-3ee0f39aac71")
-	)
-	(wire
-		(pts
-			(xy 255.27 332.74) (xy 255.27 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cdcfc87-0cd8-4aec-9f8f-1eff98f57215")
 	)
 	(wire
 		(pts
@@ -6810,6 +6826,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 203.2) (xy 203.2 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "512b0aed-9974-4923-b947-1f8de1979e48")
+	)
+	(wire
+		(pts
 			(xy 294.64 284.48) (xy 351.79 284.48)
 		)
 		(stroke
@@ -6857,6 +6883,16 @@
 			(type default)
 		)
 		(uuid "5213216a-b040-4d86-bfcd-a8ecb5723d0d")
+	)
+	(wire
+		(pts
+			(xy 265.43 139.7) (xy 270.51 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52a78d3e-5bf9-4560-8550-0ee59ce254c5")
 	)
 	(wire
 		(pts
@@ -6968,6 +7004,16 @@
 			(type default)
 		)
 		(uuid "59c4b7e5-0c0d-4056-90da-48ddfaa244f3")
+	)
+	(wire
+		(pts
+			(xy 180.34 160.02) (xy 180.34 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59de4a42-9352-4397-b46d-76b823096ecd")
 	)
 	(wire
 		(pts
@@ -7252,6 +7298,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 167.64) (xy 254 331.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b3d98b1-01b5-494d-b46a-4fd953bf44ef")
+	)
+	(wire
+		(pts
 			(xy 444.5 223.52) (xy 466.09 223.52)
 		)
 		(stroke
@@ -7485,16 +7541,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 316.23) (xy 125.73 330.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e2d943b-c44e-4946-8cab-307a6f4a7f72")
-	)
-	(wire
-		(pts
 			(xy 219.71 149.86) (xy 219.71 152.4)
 		)
 		(stroke
@@ -7565,6 +7611,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 262.89) (xy 181.61 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83374fd8-43aa-4d11-ae32-1c7adaa47e12")
+	)
+	(wire
+		(pts
 			(xy 344.17 60.96) (xy 344.17 69.85)
 		)
 		(stroke
@@ -7602,6 +7658,16 @@
 			(type default)
 		)
 		(uuid "8829aad9-1f3a-4584-8576-9488c50017da")
+	)
+	(wire
+		(pts
+			(xy 238.76 336.55) (xy 238.76 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8830690e-3d47-4a36-9eb7-032613e5048d")
 	)
 	(wire
 		(pts
@@ -7655,6 +7721,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 264.16) (xy 180.34 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e08cc3e-764b-47b1-9eb1-7a5af29a357d")
+	)
+	(wire
+		(pts
 			(xy 425.45 219.71) (xy 425.45 223.52)
 		)
 		(stroke
@@ -7675,7 +7751,17 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 336.55) (xy 243.84 336.55)
+			(xy 341.63 67.31) (xy 341.63 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fa49dd3-5264-4078-aa6f-7da35376509b")
+	)
+	(wire
+		(pts
+			(xy 158.75 336.55) (xy 238.76 336.55)
 		)
 		(stroke
 			(width 0)
@@ -7917,16 +8003,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 167.64) (xy 254 331.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab0f20d3-13e4-401e-907e-029a8656cdcc")
-	)
-	(wire
-		(pts
 			(xy 157.48 77.47) (xy 152.4 77.47)
 		)
 		(stroke
@@ -7944,16 +8020,6 @@
 			(type default)
 		)
 		(uuid "ae34d159-257d-407e-99f4-9007d3245676")
-	)
-	(wire
-		(pts
-			(xy 210.82 316.23) (xy 210.82 332.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae766822-a2ce-4660-a4bb-4c86053dae47")
 	)
 	(wire
 		(pts
@@ -8168,6 +8234,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 330.2) (xy 252.73 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c443ff45-883a-4344-b593-08f72c484afd")
+	)
+	(wire
+		(pts
 			(xy 172.72 100.33) (xy 172.72 113.03)
 		)
 		(stroke
@@ -8368,6 +8444,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 332.74) (xy 255.27 332.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d054f4dd-f5c6-4e52-97f9-83294abc82c1")
+	)
+	(wire
+		(pts
 			(xy 207.01 223.52) (xy 410.21 223.52)
 		)
 		(stroke
@@ -8376,6 +8462,16 @@
 			(color 255 0 0 1)
 		)
 		(uuid "d1753c1a-16a5-46c2-9e4c-a1c4cb84d36b")
+	)
+	(wire
+		(pts
+			(xy 255.27 170.18) (xy 255.27 332.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2bed7a0-8f5a-4b81-b639-3b626355c87e")
 	)
 	(wire
 		(pts
@@ -8469,13 +8565,13 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 189.23) (xy 203.2 189.23)
+			(xy 240.03 337.82) (xy 240.03 261.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ddd368ac-e83e-4c5f-afb1-67f0e7ad8231")
+		(uuid "dc966c7c-0514-4085-a65c-b981f0a57d57")
 	)
 	(wire
 		(pts
@@ -8486,6 +8582,16 @@
 			(type default)
 		)
 		(uuid "de285b42-3ed9-4cf8-960b-bff187632408")
+	)
+	(wire
+		(pts
+			(xy 125.73 316.23) (xy 125.73 332.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de4fcdc8-2237-454e-864c-9557ffc03d4d")
 	)
 	(wire
 		(pts
@@ -8580,6 +8686,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 160.02) (xy 203.2 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebd414f2-e4ce-4ea1-b4db-382c5f260c78")
+	)
+	(wire
+		(pts
 			(xy 501.65 160.02) (xy 491.49 160.02)
 		)
 		(stroke
@@ -8627,6 +8743,16 @@
 			(type default)
 		)
 		(uuid "ee0e2c90-2b67-417b-8f5a-331be297f901")
+	)
+	(wire
+		(pts
+			(xy 181.61 189.23) (xy 203.2 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee808015-b3da-4ca5-89ef-b956bfc3e52a")
 	)
 	(wire
 		(pts
@@ -8800,6 +8926,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 139.7) (xy 265.43 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fec60b0f-33cb-4f28-9172-9c5c9a2e18cf")
+	)
+	(wire
+		(pts
 			(xy 410.21 223.52) (xy 412.75 223.52)
 		)
 		(stroke
@@ -8837,6 +8973,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Stop LED Power (120VAC)"
+		(shape input)
+		(at 227.2628 337.82 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "09d36113-7af3-4234-a463-81471ec8050b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.2628 365.7817 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8929,28 +9087,6 @@
 			)
 		)
 	)
-	(global_label "Dispatch LED Power (120VAC)"
-		(shape input)
-		(at 240.03 337.82 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "144eb6bf-b6e0-41ae-a8bd-b9bdd04028a8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.03 369.7127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "L Top Limit Switch"
 		(shape input)
 		(at 320.04 177.8 270)
@@ -9008,28 +9144,6 @@
 		(uuid "22cefba2-0052-4c89-aa33-03fb7b2528d0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 85.09 295.8108 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Stop LED Power (120VAC)"
-		(shape input)
-		(at 247.7186 335.28 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "23235d3d-1505-4333-ab23-1fcda09a07f0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.7186 363.2417 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9105,28 +9219,6 @@
 			)
 		)
 	)
-	(global_label "Dispatch LED Control"
-		(shape input)
-		(at 257.81 170.18 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3ea80fa9-a3ad-474c-aee3-10d0192c3eea")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 257.81 193.6058 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Logic High"
 		(shape input)
 		(at 190.5 128.27 180)
@@ -9140,28 +9232,6 @@
 		(uuid "3f6982ca-4d17-40d4-8f93-465438033bee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 177.2944 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Reset LED Power (120VAC)"
-		(shape input)
-		(at 243.9086 336.55 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3f7f8474-0169-42a8-9063-4d97ee031d00")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.9086 365.4795 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9193,28 +9263,6 @@
 			)
 		)
 	)
-	(global_label "Dispatch LED Control"
-		(shape input)
-		(at 241.3 332.74 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4b5baf07-69f2-4e13-b095-89633066058a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.3 309.3142 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "+24V"
 		(shape input)
 		(at 487.68 109.22 0)
@@ -9237,6 +9285,50 @@
 			)
 		)
 	)
+	(global_label "Dispatch LED Power (120VAC)"
+		(shape input)
+		(at 234.95 335.28 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f10fc2f-ad1c-4e35-9263-b5a40c842683")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.95 367.1727 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Dispatch LED Control"
+		(shape input)
+		(at 257.7235 165.1 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "61bb748f-a7e1-41d7-880f-edc38af52c4d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.7235 188.5258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Power Enable Signal"
 		(shape input)
 		(at 161.29 64.77 270)
@@ -9250,6 +9342,94 @@
 		(uuid "6a8cc49d-8706-4e82-a91f-19f884c28748")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 161.29 87.591 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Power Enable Signal"
+		(shape input)
+		(at 316.23 64.77 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "711a4379-8ce8-4442-bb24-e07231df9e8b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 316.23 87.591 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Reset LED Control"
+		(shape input)
+		(at 254 323.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "713c9be2-556a-452f-85c6-554165aeec7a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 274.4626 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Stop LED Control"
+		(shape input)
+		(at 255.27 327.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "75167c22-040a-47d3-8153-acb1acc9fe4d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 274.7648 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "On Key Switch"
+		(shape input)
+		(at 321.31 67.31 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "76a8e1d6-482d-4549-aeaa-19faa666bf50")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 321.31 84.1442 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9545,6 +9725,28 @@
 			)
 		)
 	)
+	(global_label "Dispatch LED Control"
+		(shape input)
+		(at 252.73 319.9996 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b81ac296-d0c0-406f-b1e0-35c588d4b39b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 276.1558 319.9996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PLC E-Stop Trigger"
 		(shape input)
 		(at 392.43 232.41 90)
@@ -9655,6 +9857,28 @@
 			)
 		)
 	)
+	(global_label "Reset LED Power (120VAC)"
+		(shape input)
+		(at 231.14 336.55 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d92a0fa9-2f10-4f1b-9855-1c61a6873c74")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.14 365.4795 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Ride Maint"
 		(shape input)
 		(at 255.27 144.78 90)
@@ -9702,7 +9926,7 @@
 	)
 	(global_label "Stop LED Control"
 		(shape input)
-		(at 265.43 165.1 270)
+		(at 265.3624 170.18 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9710,58 +9934,14 @@
 			)
 			(justify right)
 		)
-		(uuid "f05ee67d-9147-432b-8ee2-95ca46ada5cf")
+		(uuid "f24bfd9b-f6a2-4e09-84aa-e29c57c524d0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 265.43 184.5948 90)
+			(at 265.3624 189.6748 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Reset LED Control"
-		(shape input)
-		(at 245.11 331.47 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f1879caa-6738-41ac-bbf4-33fe15296fa4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.11 311.0074 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Stop LED Control"
-		(shape input)
-		(at 248.92 330.2 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f63c577c-ef03-45e4-8a36-596f7dd631c5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.92 310.7052 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -12283,6 +12463,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
