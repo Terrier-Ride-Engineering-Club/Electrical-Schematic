@@ -439,6 +439,10 @@
       {
         "netclass": "120VAC Power",
         "pattern": "120V"
+      },
+      {
+        "netclass": "Digital IO",
+        "pattern": "Maint Key Switch"
       }
     ]
   },
