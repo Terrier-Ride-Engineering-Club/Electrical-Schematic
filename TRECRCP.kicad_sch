@@ -11783,8 +11783,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "STF40NF03L"
-			(at 205.232 303.53 90)
+		(property "Value" "IRLZ44NPBF"
+			(at 206.248 305.308 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12903,10 +12903,11 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "STF40NF03L"
-			(at 163.576 303.276 90)
+		(property "Value" "IRLZ44NPBF"
+			(at 163.576 305.562 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13420,7 +13421,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STF40NF03L"
+		(property "Value" "IRLZ44NPDB"
 			(at 181.102 49.784 90)
 			(effects
 				(font
@@ -14147,10 +14148,11 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "STF40NF03L"
-			(at 121.666 303.022 90)
+		(property "Value" "IRLZ44NPBF"
+			(at 119.888 305.308 90)
 			(effects
 				(font
 					(size 1.27 1.27)
