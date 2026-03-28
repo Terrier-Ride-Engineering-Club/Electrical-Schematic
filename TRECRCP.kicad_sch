@@ -13,6 +13,126 @@
 		(comment 2 "CONTRIBUTER: JESUS ESPINOZA")
 	)
 	(lib_symbols
+		(symbol "24v_-{gt}_5v_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "24V_to_5V"
+				(at 2.5401 3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "~"
+				(at 1.2701 3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "24v_-{gt}_5v_1_1_1"
+				(rectangle
+					(start -5.08 2.54)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 255 255 194 1)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "24V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Converter_ACDC:HS-40024"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5834,6 +5954,16 @@
 		)
 		(uuid "7e33b4f6-6601-4d6f-aebd-ef1340565428")
 	)
+	(text "8"
+		(exclude_from_sim no)
+		(at 203.2 162.814 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "adce46ed-6591-4532-97ea-de82e81f0576")
+	)
 	(text "E-STOP CIRCUIT"
 		(exclude_from_sim no)
 		(at 419.608 200.406 0)
@@ -5870,6 +6000,16 @@
 			)
 		)
 		(uuid "df821057-9677-4a62-a2ef-34064fda74dc")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 203.2 150.368 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f81e93df-1ac6-465e-9d06-45b52ddef6b3")
 	)
 	(text "LIMIT SWITCHES"
 		(exclude_from_sim no)
@@ -5960,6 +6100,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3545c511-ef64-424b-9003-d7ee2a73d989")
+	)
+	(junction
+		(at 447.04 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37272a1c-ccd9-4d23-913f-c47939f2f736")
 	)
 	(junction
 		(at 410.21 203.2)
@@ -6112,6 +6258,12 @@
 		(uuid "b09f1977-3798-4052-a4bb-37c403994da8")
 	)
 	(junction
+		(at 447.04 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b184a96b-7b4b-42e7-a9bf-8b00acd65811")
+	)
+	(junction
 		(at 350.52 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6134,6 +6286,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb1509c6-1826-43a7-8905-bf983943c035")
+	)
+	(junction
+		(at 441.96 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be9c6dec-7df4-4d41-ac5d-e90d9d0b64c3")
 	)
 	(junction
 		(at 165.1 60.96)
@@ -6218,12 +6376,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e369b7ae-6045-49f7-979c-bf50e6355bd0")
-	)
-	(junction
-		(at 227.33 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ee27f823-ada1-458c-b430-32b13f3df1f1")
 	)
 	(junction
 		(at 271.78 250.19)
@@ -6710,17 +6862,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 223.52) (xy 140.97 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "1970dcbe-9f2a-4f52-b757-87e9bdd010cf")
-	)
-	(wire
-		(pts
 			(xy 314.96 292.1) (xy 314.96 276.86)
 		)
 		(stroke
@@ -7121,6 +7262,16 @@
 	)
 	(wire
 		(pts
+			(xy 447.04 78.74) (xy 447.04 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34c20401-f6e1-47db-8983-7e5ab715cdf8")
+	)
+	(wire
+		(pts
 			(xy 284.48 292.1) (xy 314.96 292.1)
 		)
 		(stroke
@@ -7464,6 +7615,16 @@
 	)
 	(wire
 		(pts
+			(xy 441.96 95.25) (xy 487.68 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cdeff86-8b3c-4544-a8ca-dabfcd647329")
+	)
+	(wire
+		(pts
 			(xy 501.65 182.88) (xy 501.65 212.09)
 		)
 		(stroke
@@ -7591,6 +7752,16 @@
 			(type default)
 		)
 		(uuid "53866960-8813-47e6-bfbb-e4a6fe62c851")
+	)
+	(wire
+		(pts
+			(xy 447.04 96.52) (xy 485.14 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53abd421-2ee6-478f-ba0a-8031fbf14394")
 	)
 	(wire
 		(pts
@@ -7996,7 +8167,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 96.52) (xy 485.14 96.52)
+			(xy 384.81 96.52) (xy 447.04 96.52)
 		)
 		(stroke
 			(width 0)
@@ -8359,6 +8530,16 @@
 	)
 	(wire
 		(pts
+			(xy 441.96 88.9) (xy 441.96 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83baf21c-0742-466a-a7e2-ee890a1095a1")
+	)
+	(wire
+		(pts
 			(xy 586.74 160.02) (xy 574.04 160.02)
 		)
 		(stroke
@@ -8550,7 +8731,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 95.25) (xy 487.68 95.25)
+			(xy 295.91 95.25) (xy 441.96 95.25)
 		)
 		(stroke
 			(width 0)
@@ -8882,6 +9063,16 @@
 	)
 	(wire
 		(pts
+			(xy 441.96 64.77) (xy 441.96 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b34259de-0c36-460c-8f54-93b2b93eb440")
+	)
+	(wire
+		(pts
 			(xy 173.99 281.94) (xy 215.9 281.94)
 		)
 		(stroke
@@ -9060,17 +9251,6 @@
 			(type default)
 		)
 		(uuid "c1ad4ca3-fe66-4dbd-b1c6-b3c206f0e146")
-	)
-	(wire
-		(pts
-			(xy 227.33 168.91) (xy 270.51 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "c1b9adab-8b3b-4948-b911-9540ffbb3701")
 	)
 	(wire
 		(pts
@@ -9345,7 +9525,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 223.52) (xy 140.97 223.52)
+			(xy 130.81 223.52) (xy 410.21 223.52)
 		)
 		(stroke
 			(width 0)
@@ -9533,6 +9713,16 @@
 			(type default)
 		)
 		(uuid "dbeb6853-1b49-4396-9d8f-0d88b5b4b595")
+	)
+	(wire
+		(pts
+			(xy 447.04 64.77) (xy 447.04 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc0c3995-65a1-46a9-8422-8db7755f2de7")
 	)
 	(wire
 		(pts
@@ -9898,17 +10088,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 168.91) (xy 227.33 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "efe71583-7fa3-4176-85db-b5454dfa4e17")
-	)
-	(wire
-		(pts
 			(xy 134.62 152.4) (xy 135.89 152.4)
 		)
 		(stroke
@@ -10009,17 +10188,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 223.52) (xy 410.21 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "fb5289f7-7167-4305-9062-88e83dd393ac")
-	)
-	(wire
-		(pts
 			(xy 186.69 60.96) (xy 186.69 64.77)
 		)
 		(stroke
@@ -10088,17 +10256,6 @@
 			(type default)
 		)
 		(uuid "fe73ada1-0281-4052-a9a5-9cc2100bd680")
-	)
-	(wire
-		(pts
-			(xy 227.33 168.91) (xy 227.33 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "fec48d24-e20b-4630-93c3-6dde8b00e0dc")
 	)
 	(wire
 		(pts
@@ -10352,6 +10509,28 @@
 		(uuid "22cefba2-0052-4c89-aa33-03fb7b2528d0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 85.09 295.8108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "To Theming 5V"
+		(shape input)
+		(at 441.96 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2ce67bd8-4bf9-4043-956d-3ecd7ddbfeec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 424.8236 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10933,6 +11112,28 @@
 			)
 		)
 	)
+	(global_label "PLC E-Stop Trigger"
+		(shape input)
+		(at 379.73 76.2 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a058ac4e-06e6-4dba-a6e1-0eac5abf79cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 379.73 54.2255 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Jog Down"
 		(shape input)
 		(at 184.15 157.48 90)
@@ -10979,22 +11180,66 @@
 	)
 	(global_label "E-Stop Button"
 		(shape input)
-		(at 201.93 168.91 270)
+		(at 200.66 223.52 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "a695ca31-0a59-49ea-982e-057258c07f38")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.93 185.9858 90)
+			(at 200.66 206.4442 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RCC E-Stop Trigger"
+		(shape input)
+		(at 332.74 176.53 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ab6693c5-0c81-40e5-b479-b4474401c0e5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 332.74 154.3136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "To Theming GND"
+		(shape input)
+		(at 447.04 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "abc77328-619c-4a69-b546-5bdefe0c8a0c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 465.7488 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -15361,6 +15606,81 @@
 			(project "TRECRCP (3)"
 				(path "/ea91bab5-2f80-490a-b9b5-c78a73310229"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "24v_-{gt}_5v_1")
+		(lib_id "TREC SYMBOL LIB:24v_-{gt}_5v")
+		(at 439.42 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f87d91bc-396e-407d-b31c-14940d7300a7")
+		(property "Reference" "24V_to_5V"
+			(at 435.61 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 435.61 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 439.42 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 439.42 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 439.42 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0b73058f-6d5a-4099-a1f1-7e5ae52e7e12")
+		)
+		(pin "3"
+			(uuid "b23b467b-97c0-437f-b5f9-3d82d9596ba0")
+		)
+		(pin "1"
+			(uuid "17f99790-a8f7-4a2d-b8b8-766e052e28ff")
+		)
+		(instances
+			(project "TRECRCP"
+				(path "/ea91bab5-2f80-490a-b9b5-c78a73310229"
+					(reference "24V_to_5V")
 					(unit 1)
 				)
 			)
