@@ -6,8 +6,8 @@
 	(paper "D")
 	(title_block
 		(title "RIDE ENGINEERING COMPETITION 2026 ELECTRICAL SCHEMATIC")
-		(date "2026-02-22")
-		(rev "B - FDR")
+		(date "2026-03-30")
+		(rev "C - AS BUILT")
 		(company "TERRIER RIDE ENGINEERING CLUB")
 		(comment 1 "CONTRIBUTER: JACK JUSTUS")
 		(comment 2 "CONTRIBUTER: JESUS ESPINOZA")
@@ -6614,16 +6614,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 179.07) (xy 270.51 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37da3435-a310-4aa3-8f74-c4afba437173")
-	)
-	(wire
-		(pts
 			(xy 138.43 137.16) (xy 138.43 154.94)
 		)
 		(stroke
@@ -7374,16 +7364,6 @@
 			(type default)
 		)
 		(uuid "7b2cf285-4475-4e6a-a9e1-09220e4cd183")
-	)
-	(wire
-		(pts
-			(xy 254 176.53) (xy 270.51 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c5562ca-a0f1-4c9e-a4c3-c20f7494e166")
 	)
 	(wire
 		(pts
@@ -8161,16 +8141,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 171.45) (xy 270.51 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db43d5c7-f347-4ed7-a738-310f70200194")
-	)
-	(wire
-		(pts
 			(xy 383.54 76.2) (xy 383.54 232.41)
 		)
 		(stroke
@@ -8932,28 +8902,6 @@
 			)
 		)
 	)
-	(global_label "Dispatch LED Control"
-		(shape input)
-		(at 252.73 171.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "61bb748f-a7e1-41d7-880f-edc38af52c4d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.3042 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Power Enable Signal"
 		(shape input)
 		(at 195.58 64.77 270)
@@ -9082,28 +9030,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Reset LED Control"
-		(shape input)
-		(at 254 176.53 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "93f06aa4-c200-433e-8e52-bba5033720fe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.5374 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -9523,28 +9449,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Stop LED Control"
-		(shape input)
-		(at 255.27 179.07 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f24bfd9b-f6a2-4e09-84aa-e29c57c524d0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.7752 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
