@@ -603,7 +603,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "/Users/jackjustus/Downloads/",
+    "plot_directory": "../../../Downloads/rcpfinal/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
