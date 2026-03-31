@@ -5572,9 +5572,9 @@
 		)
 		(uuid "0013dcfa-8fc3-4201-94cc-67da62cc2033")
 	)
-	(text "Connector A - 14pin Molex"
+	(text "Connector A - RJ-45"
 		(exclude_from_sim no)
-		(at 218.694 149.86 0)
+		(at 216.916 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5655,7 +5655,7 @@
 	)
 	(text "RIDE CONTROL PANEL "
 		(exclude_from_sim no)
-		(at 74.422 123.19 0)
+		(at 120.142 122.682 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6754,16 +6754,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 105.41) (xy 148.59 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48218878-289b-49a1-ad12-50f0103f7d4b")
-	)
-	(wire
-		(pts
 			(xy 560.07 181.61) (xy 551.18 181.61)
 		)
 		(stroke
@@ -7514,16 +7504,6 @@
 			(type default)
 		)
 		(uuid "8c2a2334-728d-4fbc-9043-4af6c63db3ce")
-	)
-	(wire
-		(pts
-			(xy 62.23 105.41) (xy 148.59 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c42529f-f956-4dab-974c-812a472452c8")
 	)
 	(wire
 		(pts
@@ -8864,28 +8844,6 @@
 			)
 		)
 	)
-	(global_label "120V"
-		(shape input)
-		(at 190.5 105.41 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "37c6da59-858c-442c-8d42-bfad0129f534")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.5 97.7077 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "R Top Limit Switch"
 		(shape input)
 		(at 351.79 78.74 0)
@@ -9053,50 +9011,6 @@
 		(uuid "76a8e1d6-482d-4549-aeaa-19faa666bf50")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 312.42 84.1442 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "120VAC Neut"
-		(shape input)
-		(at 200.66 233.68 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7941c1cd-85cf-4825-b854-f5d57b6861b0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.66 249.0023 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "NEUT"
-		(shape input)
-		(at 116.84 106.68 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7b57005d-1ce4-4ae1-8f9b-93e3d424500b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.84 114.4428 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9613,28 +9527,6 @@
 			)
 		)
 	)
-	(global_label "120V"
-		(shape input)
-		(at 116.84 105.41 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "eb17aea0-859e-4d03-bdfc-eedcce72e3d8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.84 97.7077 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Stop LED Control"
 		(shape input)
 		(at 255.27 179.07 180)
@@ -9720,7 +9612,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 62.865 124.46) (xy 62.23 259.08) (xy 204.1524 259.08) (xy 204.7874 124.46)
+				(xy 109.22 123.825) (xy 109.22 229.235) (xy 204.47 229.235) (xy 204.47 123.825)
 			)
 			(stroke
 				(width 0)
@@ -10162,6 +10054,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "~"
@@ -10541,7 +10434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "12v Coil Relay"
+		(property "Value" "120v Coil Relay"
 			(at 156.21 66.04 90)
 			(effects
 				(font
